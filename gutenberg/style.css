@@ -1,0 +1,32 @@
+body {
+    background-image: url(paper.jpg);
+    font-family: "Times New Roman", Times, serif;
+    background-position: center;
+    letter-spacing: .2rem;
+    color : darkslategray;
+}
+
+h1, h2, h3, h4, h5{
+    font-size: x-large;
+    color : darkgreen;
+    letter-spacing: .2rem;
+}
+
+p {
+    font-size: large;
+    font-weight: bold;
+    line-height: 150%;
+}
+
+div {
+    font-size: large;
+    font-weight: bold;
+    line-height: 150%; 
+}
+
+img{
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+	width: 50%;
+}

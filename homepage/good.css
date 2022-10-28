@@ -1,0 +1,112 @@
+html {
+	font-family: 'Copperplate',Fantacy;
+	background-color: white;
+}
+
+header{
+	display: flex;
+	background-color: black;
+	text-align: center;
+	color: gray;
+	background-image: url("project_img/background.jpg");
+	justify-content: center;
+	padding-top:25%;
+	padding-bottom: 27%;
+	width: 100vw;
+
+}
+
+.sidebar {
+	overflow: hidden;
+	background-color: black;
+	width: 100vw;
+}
+
+.sidebar a{
+	padding:10px;
+	float:left;
+	display: block;
+	color: white;
+	text-align: center;
+
+}
+
+.sidebar a.right{
+	float: right;
+}
+
+.line1{
+	width: 100vw;
+	height: 20px;
+	border-bottom: 3px solid white;
+	position: absolute;
+
+}
+.selfInfo{
+	padding: 5px;
+	margin-left: 30px;
+	margin-top: 25px;
+	width: 45vw;
+	font-family: 'Lato',serif;
+	color: black;
+	background: rgba(240, 240, 240, 0.3);
+	float: left;
+	border-radius: 25px;
+	height: 700px;
+	line-height:30px;
+	margin-bottom: 25px;
+}
+
+.selfInfo p,h4{
+	margin:20px;
+}
+
+.basic{
+	padding: 5px;
+	margin-top: 25px;
+	width: 45vw;
+	font-family: 'Lato',serif;
+	color: black;
+	background: rgba(240, 240, 240, 0.3);
+	float: right;
+	border-radius: 8px;
+	height: 700px;
+	line-height:30px;
+	margin-bottom: 25px;
+
+}
+
+.basic ul{
+	margin-left:60px;
+}
+
+img{
+	display: block;
+	border-radius: 6px;
+	margin-left: auto;
+  	margin-right: auto;
+	width: 75%;
+}
+
+
+.footer{
+
+	clear: both;
+	position: relative;
+	margin-top: -200;
+	background-color: black;
+	height: 100px;
+	color: white;
+
+}
+
+.footer h3{
+	color: white;
+	text-align: center;
+}
+
+.footer a{
+	margin-left: 30%;
+	color: white;
+}
+
